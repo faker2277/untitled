@@ -1,4 +1,4 @@
-#sdfsf
-a = [1,2,3,4]
-b = a.items()
-b.
+#PYTHON学习
+for i in range(1,10):
+    print(i)
+   
