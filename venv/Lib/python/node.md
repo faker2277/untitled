@@ -1,4 +1,2 @@
-#PYTHON学习
-for i in range(1,10):
-    print(i)
-   
+# conda如何创建
+- 提示符下：conda create -n oop python=3.6

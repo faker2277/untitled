@@ -10,11 +10,10 @@ class PythonStudent():
 
     def dohomework(self):
         print("做作业")
+        # self.name = "abc"
+        # self.age = 20
         return None
 
 jack = PythonStudent()
-
-print(jack.address)
-print(jack.age)
 print(jack.dohomework())
-
+print(jack.no)
