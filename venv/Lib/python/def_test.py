@@ -11,9 +11,15 @@ class Python():
     def say(self):
         self.name = "Anlge"
         self.age = 21
-        print("The name is : {0}".format(__class__.name))
-        print("The name is : {0}".format(__class__.age))
+        print("The name is : {0}".format(Python.name))
+        print("The name is : {0}".format(Python.age))
 
-Hello = Python()
-print(Hello.say())
+class Name_t():
+    name = "原有"
+    _age = 20
+
+Hello = Name_t()
+
+print(Hello.name)
+print(Hello._age)
 
