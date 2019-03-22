@@ -18,8 +18,19 @@ class Name_t():
     name = "原有"
     _age = 20
 
+class pyther():
+    '''
+    拉的计费啊啊啊
+    '''
+
+
+print(issubclass(B, A))
+print(issubclass(C, A))
+print(issubclass(C, object))
+
 Hello = Name_t()
 
 print(Hello.name)
 print(Hello._age)
+# print(pyther.__doc__)
 
